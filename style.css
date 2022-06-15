@@ -16,16 +16,15 @@ body, ul, li, p {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #1d1e20;
 }
 
 .header {
-	background: #1d1e20;
+	background: #ffffff;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
 	align-items: center;
-	padding: 20px;
+	padding: 8px;
   }
   
   .menu {
@@ -38,9 +37,100 @@ a {
   
   .menu li a {
 	display: block;
-	padding: 10px;
+	padding: 5px;
   }
 
   .searchBar {
-	margin-left: 50em;
+	margin-left: 30em;
   }
+
+  .logoHeader {
+	margin-right: 20px;
+	padding-left: 4em;
+  }
+
+  .logoHeader a {
+	margin-right: 30px;
+  }
+
+  /* Aqui Configuramos o Dropdown Comunidade*/
+
+  .dropSeta {
+	width: 10px;
+	height: 10px;
+  }
+
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+
+  .dropLink {
+	padding: 16px;
+	border: none;
+	cursor: pointer;
+  }
+
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+
+  /* Search Bar*/
+
+  #btnBusca {
+	width: 30px;
+	float: left;
+  }
+  
+  #divBusca{
+	margin-right: 8px;
+	margin-left: 18em;
+	border: none;
+	background-color: white;
+	border-radius:15px;
+	width:200px;
+  }
+  
+  #txtBusca{
+	float:left;
+	background-color:transparent;
+	font-style:italic;
+	font-size:15px;
+	border:none;
+	height:32px;
+	width:160px;
+  }
+
+  /* Botão de login */
+
+  .buttonLogin {
+	border-radius: 2em;
+	background-color: #137bf3;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+
+  
