@@ -8,7 +8,6 @@
 html, body {
     height: 100%;
 }
-
 body, ul, li, p {
 	list-style: none;
 	font-size: 1.2rem;
@@ -134,4 +133,25 @@ a {
 	cursor: pointer;
   }
 
-  
+  .main-content {
+  }
+
+  /** Footer **/
+
+.footer {
+	background-color: #20202D;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	display: flex;
+}
+
+.paragrafo-footer{
+	color: #F6F6F6;
+	padding: 30px 50px;
+}
+
+.titulo-footer{
+	color: #FFFFFF;
+}
